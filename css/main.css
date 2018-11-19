@@ -6,3 +6,9 @@
     margin-right: auto;
     max-width: initial;
  }
+
+ .boxHelper {
+     color: white;
+     background-color: black;
+     text-align: center;
+ }
