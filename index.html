@@ -9,72 +9,121 @@
     <title>Brantford Living</title>
 </head>
 <body>
-    <div class="row fullWidth">
-        <div class="large-12 small-12 columns">
-            <p class="boxHelper">Landing Page</p>
+    <div class="row fullWidth headerContainer">
+        <div class="large-5 small-12 columns logo">
+            <h1>BRANTFORD LIVING</h1>
+        </div>
+        <div class="large-6 small-12 columns">
+            <nav class="mainNav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Choose Brantford</a></li>
+                    <li><a href="#">Commute</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+        </div>
+        <div class="large-1 small-12 columns menu">
+            <a href="#"><img src="images/menu.png" alt="Menu"></a>
         </div>
     </div>
 
     <div class="row">
+        <div class="large-12 small-12 columns welcomeLogo">
+            <img src="images/welcome.png" alt="Welcome to Brantford Ontario">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="large-12 small-12 columns findOut">
+            <a href="#"><h1>FIND OUT WHAT AWAITS</h1></a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="large-12 small-12 columns" id="brantfordContainer">
+            <h1 class="title" id="brantfordOntario">BRANTFORD ONTARIO</h1>
+        </div>
+    </div>
+
+    <div class="row fullWidth">
         <div class="large-12 small-12 columns">
-            <p class="boxHelper">Brantford Ontario</p>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius sagittis dapibus. Mauris molestie quam id sapien commodo semper. Vivamus rhoncus tellus sed elit efficitur, vel ultricies quam pellentesque. Suspendisse velit dui, interdum vitae odio vel, ultricies tristique dolor. <br><br>Suspendisse ac ipsum fringilla, pharetra ante eget, lobortis dui. Praesent rhoncus augue non dui tincidunt consequat. Ut dapibus felis sed euismod tincidunt. Quisque ornare eros ut odio ullamcorper iaculis non eget elit. Integer porttitor finibus accumsan.</p>
+        </div>
+    </div>
+
+    <div class="row fullWidth">
+        <div class="large-12 small-12 columns">
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93150.19700222921!2d-80.34410556556158!3d43.1477124368954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c65e278ea730f%3A0x353da5a5a466f9e0!2sBrantford%2C+ON!5e0!3m2!1sen!2sca!4v1543956554575" width="1920" height="294" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="large-12 small-12 columns title">
+            <h1 class="title" id="chooseBrantford">CHOOSE BRANTFORD</h1>
+        </div>
+    </div>
+
+    <div class="row" id="iconContainer">
+        <div class="large-4 small-12 columns">
+            <img src="images/box.png" alt="Icon 1">
+        </div>
+        <div class="large-4 small-12 columns">
+            <img src="images/box.png" alt="Icon 2">
+        </div>
+        <div class="large-4 small-12 columns">
+            <img src="images/box.png" alt="Icon 3">
         </div>
     </div>
 
     <div class="row fullWidth">
         <div class="large-12 smll-12 columns">
-            <p class="boxHelper">About Info</p>
-        </div>
-    </div>
-
-    <div class="row fullWidth">
-        <div class="large-12 small-12 columns">
-            <p class="boxHelper">Map</p>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius sagittis dapibus. Mauris molestie quam id sapien commodo semper. Vivamus rhoncus tellus sed elit efficitur, vel ultricies quam pellentesque. Suspendisse velit dui, interdum vitae odio vel, ultricies tristique dolor. <br><br>Suspendisse ac ipsum fringilla, pharetra ante eget, lobortis dui. Praesent rhoncus augue non dui tincidunt consequat. Ut dapibus felis sed euismod tincidunt. Quisque ornare eros ut odio ullamcorper iaculis non eget elit. Integer porttitor finibus accumsan.</p>
         </div>
     </div>
 
     <div class="row">
         <div class="large-12 small-12 columns">
-            <p class="boxHelper">Choose Brantford</p>
+            <h2 id="commuteTitle">Find out how long your commute will be!</h2>
         </div>
     </div>
 
-    <div class="row">
-        <div class="large-4 small-12 columns">
-            <p class="boxHelper">Icon 1</p>
-        </div>
-        <div class="large-4 small-12 columns">
-            <p class="boxHelper">Icon 2</p>
-        </div>
-        <div class="large-4 small-12 columns">
-            <p class="boxHelper">Icon 3</p>
-        </div>
-    </div>
-
-    <div class="row fullWidth">
-        <div class="large-12 smll-12 columns">
-            <p class="boxHelper">Choose Brantford Info</p>
-        </div>
-    </div>
-
-    <div class="row">
+    <div class="row fullWidth" id="commuteContainer">
         <div class="large-12 small-12 columns">
-            <p class="boxHelper">Commute Title</p>
+            <form action="#" id="commuteForm">
+                <input name="location" type="text" value="Brantford, ON" class="formInput">
+                <input name="destination" type="text" placeholder="Toronto, ON" class="formInput">
+
+                <input name="commuteSubmit" type="submit" id="submit">
+            </form>
         </div>
     </div>
 
-    <div class="row">
-        <div class="large-6 small-12 columns">
-            <p class="boxHelper">Commute Calculator 1</p>
+    <div class="row fullWidth mainFooter">
+        <div class="large-4 small-12 columns" id="footerInfo">
+            <h3>BRANTFORD LIVING</h3>
+            <p id="footerAbout">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus justo metus, fermentum consectetur imperdiet id, finibus ac lacus. Praesent ullamcorper, sapien quis feugiat congue, leo leo </p>
         </div>
-        <div class="large-6 small-12 columns">
-            <p class="boxHelper">Commute Calculator 2</p>
+        <div class="large-4 small-12 columns" id="footerNavCon">
+            <h3>NAVIGATION</h3>
+            <nav class="footerNav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Choose Brantford</a></li>
+                    <li><a href="#">Commute</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
+        <div class="large-4 small-12 columns" id="footerSubscribe">
+            <h3>SUBSCRIBE</h3>
+            <form action="#">
+                <input name="subscribeEmail" type="text" id="footerInput">
 
-    <div class="row fullWidth">
-        <div class="large-12 small-12 columns">
-            <p class="boxHelper">Footer</p>
+                <input name="subscribeSubmit" type="submit" value="Subscribe" id="footerSubmit">
+            </form>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus justo metus, fermentum consectetur imperdiet id, finibus ac lacus. Praesent ullamcorper, sapien quis feugiat congue, leo leo </p>
         </div>
     </div>
 

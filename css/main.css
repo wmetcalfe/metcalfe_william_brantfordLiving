@@ -12,3 +12,172 @@
      background-color: black;
      text-align: center;
  }
+
+ body {
+     background-image: url(../images/background.png);
+     background-repeat: no-repeat;
+ }
+
+/* Landing Screen */
+
+.logo h1 {
+    color: white;
+    float: left;
+    padding: 25px;
+    font-weight: bold;
+}
+
+.menu img {
+    margin-top: 40px; 
+}
+
+.mainNav {
+    position: absolute;
+    display: none;
+    margin-top: 30px;
+
+}
+
+.mainNav ul {
+    list-style-type: none;
+}
+
+.mainNav ul li {
+    text-align: right;
+    margin-right: 20px;
+    display: inline;
+}
+
+.mainNav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.welcomeLogo {
+    margin-top: 250px;
+}
+
+.findOut h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 250px;
+}
+
+/* Main Content */
+
+#brantfordContainer {
+    margin-top: 150px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.text {
+    font-size: 38px;
+    padding: 25px 100px 25px 100px;
+}
+
+#map {
+    margin-top: 25px;
+}
+
+#chooseBrantford {
+    margin-top: 50px;
+}
+
+#iconContainer {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+#commuteTitle {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#commuteForm {
+    /* Will have to look into this, for some reason the Foundation float classes are not working */
+    padding-left: 300px;
+}
+
+.formInput {
+    font-size: 34px;
+    width: 1223px;
+    height: 109px;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+#submit {
+    padding: 15px 40px 15px 40px;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 535px;
+}
+
+/* Footer */
+
+.mainFooter {
+    background-color: black;
+    margin-top: 100px;
+}
+
+.mainFooter h3 {
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.mainFooter p {
+    color: white;
+    margin-top: 25px;
+}
+
+#footerAbout {
+    padding-right: 150px;
+}
+
+.footerNav ul {
+    list-style-type: none;
+}
+
+.footerNav ul li {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.footerNav ul li a {
+    color: white;
+}
+
+#footerSubmit {
+    color: black;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+}
+
+#footerInfo {
+    padding-left: 100px;
+}
+
+#footerSubscribe {
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+#footerInput {
+    margin-top: 20px;
+}
+
+#footerNavCon {
+    padding-left: 100px;
+}
