@@ -1,0 +1,60 @@
+@media screen and (max-width: 1440px) {
+    .logo h1 {
+        font-size: 30px;
+    }
+
+    .menu img {
+        margin-top: 35px;
+    }
+
+    .mainNav ul li a {
+        font-size: 20px;
+    }
+
+    .welcomeLogo {
+        padding: 0px 125px 0px 125px;
+        margin-top: 150px;
+    }
+
+    .findOut h1 {
+        margin-top: 150px;
+        font-size: 30px;
+    }
+
+    #brantfordContainer {
+        margin-top: 450px;
+    }
+
+    .title {
+        font-size: 45px;
+    }
+
+    .text {
+        font-size: 25px;
+    }
+
+    #map {
+        width: 1440px;
+    }
+
+    #commuteTitle {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    #commuteForm {
+        padding-left: 275px;
+    }
+
+    .formInput {
+        width: 800px;
+        height: 75px;
+        padding: 25px;
+        font-size: 25px;
+    }
+
+    #submit {
+        margin-left: 325px;
+        font-size: 20px;
+    }
+}
