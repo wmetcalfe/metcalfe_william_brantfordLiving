@@ -7,3 +7,5 @@
 ### A growing Sir Wilfred Laurier University campus has attracted thousands of students, and revitalized the downtown core. With a population of almost 100,000 Brantford maintains a small town feel and could be your place to call home.
 
 ### The site is built using HTML5, CSS3 and JQuery, and is built using Foundation, a responsive framework.
+
+### https://wmetcalfe.github.io/metcalfe_william_brantfordLiving/
